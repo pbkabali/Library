@@ -54,7 +54,7 @@ function showForm() {
 }
 
 function createBook() {
-  const book = new Book(
+  const book = Book(
     newBookTitle.value,
     newBookAuthor.value,
     newBookPages.value,
